@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  box-sizing: border-box;
+  /* outline: 0; */
+}
+
+.CONTAINERR {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  /* border: 1px solid white; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  /* border: 2px solid red; */
+  width: 22%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 20px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0px 33px 15px 15px hsl(216, 49%, 10%);
+}
+
+.manyblessings {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: lighter;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+.contained {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  /* border: 1px solid red; */
+  margin-block: 15px;
+  align-items: left;
+  cursor: pointer;
+}
+
+.youknow,
+.youknew,
+.grace,
+.gracious {
+  border: 1px solid hsl(216, 50%, 16%);
+}
+.equilibrium {
+  height: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Whoknows {
+  /* border: 3px solid white; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.youknew,
+.youknow {
+  display: flex;
+  gap: 7px;
+}
+
+.Jules {
+  /* border: 2px solid red;  */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.newthing {
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  /* border: 1px solid white; */
+  display: inline;
+}
+.inlined {
+  display: inline;
+  color: hsl(215, 51%, 70%);
+  /* border: 1px solid white; */
+}
+.grace {
+  font-weight: 500;
+  color: hsl(178, 100%, 50%);
+}
+.gracious {
+  color: hsl(215, 51%, 70%);
+}
+.classx {
+  display: flex;
+  flex-direction: column;
+  gap: 26.5px;
+}
+.style {
+  background-color: hsl(215, 32%, 27%);
+  color: hsl(215, 32%, 27%);
+  border-width: 0;
+  height: 1px;
+}
+#rest {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+img:hover{
+  color: hsl(178, 100%, 50%);
+  opacity: 80%;
+}
+.contained:hover{
+  color: hsl(178, 100%, 50%);
+}
+@media screen and (max-width: 768px){
+
+}
